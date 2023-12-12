@@ -19,14 +19,14 @@ export function Hero() {
               テクノロジーカンパニーです。
             </h3>
           </div>
-          <a
-            className="w-60 md:w-80 h-14 md:h-[78px] px-8 md:px-12 py-4 md:py-6 bg-lime-300 rounded-full justify-center items-center inline-flex"
-            href=""
-          >
-            <button className="text-center text-neutral-800 text-base md:text-xl font-bold font-['Noto Sans JP'] leading-normal md:leading-[30px] tracking-wide">
+          <div className="w-60 md:w-80 h-14 md:h-[78px] px-8 md:px-12 py-4 md:py-6 bg-lime-300 rounded-full justify-center items-center inline-flex">
+            <a
+              className="text-center text-neutral-800 text-base md:text-xl font-bold font-['Noto Sans JP'] leading-normal md:leading-[30px] tracking-wide"
+              href="#service"
+            >
               事業内容を見る
-            </button>
-          </a>
+            </a>
+          </div>
         </div>
       </section>
     </>
