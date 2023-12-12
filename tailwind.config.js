@@ -14,6 +14,10 @@ module.exports = {
       backgroundImage: {
         "root-hero-pc": "url('/Images/root-hero-pc.jpg')",
         "root-hero-sp": "url('/Images/root-hero-sp.jpg')",
+        raretech: "url('/Images/raretech.png')",
+        envader: "url('/Images/envader.png')",
+        development: "url('/Images/development.png')",
+        development2: "url('/Images/development2.png')",
       },
     },
   },
