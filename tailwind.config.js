@@ -27,6 +27,8 @@ module.exports = {
         works4: "url('/Images/works4.png')",
         works5: "url('/Images/works5.png')",
         works6: "url('/Images/works6.png')",
+        "cta-pc": "url('/Images/cta-pc.jpg')",
+        "cta-sp": "url('/Images/cta-sp.jpg')",
       },
     },
   },
