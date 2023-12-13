@@ -132,9 +132,9 @@ export function Works() {
             </div>
           </div>
             <div className="w-60 px-8 py-4 bg-lime-300 rounded-full justify-center items-center flex">
-              <div className="text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+              <button className="text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
                 一覧を見る
-              </div>
+              </button>
             </div>
         </div>
       </section>
