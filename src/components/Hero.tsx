@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Hero() {
   return (
     <>
@@ -20,12 +22,12 @@ export function Hero() {
             </h3>
           </div>
           <div className="w-60 md:w-80 h-14 md:h-[78px] px-8 md:px-12 py-4 md:py-6 bg-lime-300 rounded-full justify-center items-center inline-flex">
-            <a
+            <Link
               className="text-center text-neutral-800 text-base md:text-xl font-bold font-['Noto Sans JP'] leading-normal md:leading-[30px] tracking-wide"
               href="#service"
             >
               事業内容を見る
-            </a>
+            </Link>
           </div>
         </div>
       </section>
