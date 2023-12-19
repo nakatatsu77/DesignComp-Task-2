@@ -1,3 +1,4 @@
+import logo from "../../public/Images/Logo.png"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +10,7 @@ export function Footer() {
           <div className="w-full flex-col md:flex-row justify-start md:justify-between gap-10 flex">
             <address className="flex flex-col gap-2">
               <Image
-                src="/Images/Logo.png"
+                src={logo}
                 alt="株式会社var"
                 width={64}
                 height={64}
