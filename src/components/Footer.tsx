@@ -1,4 +1,4 @@
-import logo from "../../public/Images/Logo.png"
+import logo from "../../public/Images/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,8 +12,7 @@ export function Footer() {
               <Image
                 src={logo}
                 alt="株式会社var"
-                width={64}
-                height={64}
+                className="w-16 h-16 pt-px pb-[0.94px] justify-center items-center flex"
               />
               <p className="text-white text-xl font-bold font-['Noto Sans JP'] leading-[30px] tracking-wide">
                 株式会社var
