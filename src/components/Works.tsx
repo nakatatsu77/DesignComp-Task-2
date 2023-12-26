@@ -15,7 +15,7 @@ export function Works() {
             <div className="flex-col md:flex-row gap-10 md:gap-6 flex pb-10">
               <div className="flex-col gap-2 md:gap-4 flex">
                 <div className="flex-col gap-4 flex">
-                  <div className="w-[328px] md:w-[411px] h-[185px] md:h-[231px] bg-mobile1 md:bg-works1 bg-cover bg-center rounded-2xl relative">
+                  <div className="md:w-[411px] h-[185px] md:h-[231px] bg-mobile1 md:bg-works1 bg-cover bg-center rounded-2xl relative">
                     <div className="px-[9px] py-1 bg-neutral-800 rounded-full gap-2.5 flex absolute right-[16px] top-[16px]">
                       <h3 className="text-white text-sm font-medium leading-[21px] tracking-wide">
                         その他
@@ -34,7 +34,7 @@ export function Works() {
               </div>
               <div className="flex-col gap-2 md:gap-4 flex">
                 <div className="flex-col gap-4  flex">
-                  <div className="w-[328px] md:w-[411px] h-[185px] md:h-[231px] bg-works2 bg-cover bg-center rounded-2xl relative">
+                  <div className="md:w-[411px] h-[185px] md:h-[231px] bg-works2 bg-cover bg-center rounded-2xl relative">
                     <div className="px-[9px] py-1 bg-indigo-500 rounded-full gap-2.5 flex absolute right-[16px] top-[16px]">
                       <h3 className="text-white text-sm font-medium leading-[21px] tracking-wide">
                         RareTECH
@@ -53,7 +53,7 @@ export function Works() {
               </div>
               <div className="flex-col gap-2 md:gap-4 flex">
                 <div className="flex-col gap-4 flex">
-                  <div className="w-[328px] md:w-[411px] h-[185px] md:h-[231px] bg-works3 bg-cover bg-center rounded-2xl relative">
+                  <div className="md:w-[411px] h-[185px] md:h-[231px] bg-works3 bg-cover bg-center rounded-2xl relative">
                     <div className="px-[9px] py-1 bg-sky-400 rounded-full gap-2.5 flex absolute right-[16px] top-[16px]">
                       <h3 className="text-white text-sm font-medium leading-[21px] tracking-wide">
                         エンベーダー
@@ -74,7 +74,7 @@ export function Works() {
             <div className="flex-col md:flex-row gap-10 md:gap-6 flex">
               <div className="flex-col gap-2 md:gap-4 flex">
                 <div className="flex-col gap-4 flex">
-                  <div className="w-[328px] md:w-[411px] h-[185px] md:h-[231px] bg-works4 bg-cover bg-center rounded-2xl relative">
+                  <div className="md:w-[411px] h-[185px] md:h-[231px] bg-works4 bg-cover bg-center rounded-2xl relative">
                     <div className="px-[9px] py-1 bg-orange-400 rounded-full gap-2.5 flex absolute right-[16px] top-[16px]">
                       <h3 className="text-white text-sm font-medium leading-[21px] tracking-wide">
                         システム・アプリケーション開発
@@ -93,7 +93,7 @@ export function Works() {
               </div>
               <div className="flex-col gap-2 md:gap-4 flex">
                 <div className="flex-col gap-4 flex">
-                  <div className="w-[328px] md:w-[411px] h-[185px] md:h-[231px] bg-mobile2 md:bg-works5 bg-cover bg-center rounded-2xl relative">
+                  <div className="md:w-[411px] h-[185px] md:h-[231px] bg-mobile2 md:bg-works5 bg-cover bg-center rounded-2xl relative">
                     <div className="px-[9px] py-1 bg-purple-500 rounded-full gap-2.5 flex absolute right-[16px] top-[16px]">
                       <h3 className="text-white text-sm font-medium leading-[21px] tracking-wide">
                         Web制作
@@ -112,7 +112,7 @@ export function Works() {
               </div>
               <div className="flex-col gap-2 md:gap-4 flex">
                 <div className="flex-col gap-4 flex">
-                  <div className="w-[328px] md:w-[411px] h-[185px] md:h-[231px] bg-works6 bg-cover bg-center rounded-2xl relative">
+                  <div className="md:w-[411px] h-[185px] md:h-[231px] bg-works6 bg-cover bg-center rounded-2xl relative">
                     <div className="px-[9px] py-1 bg-indigo-500 rounded-full gap-2.5 flex absolute right-[16px] top-[16px]">
                       <h3 className="text-white text-sm font-medium leading-[21px] tracking-wide">
                         RareTECH

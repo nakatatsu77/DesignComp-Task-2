@@ -38,7 +38,7 @@ export function Service() {
                   <br />
                   RareTECH
                 </h3>
-                <div className="md:order-1 w-[328px] md:w-[400px] h-[185px] md:h-[225px] bg-raretech bg-cover rounded-2xl row-span-3" />
+                <div className="md:order-1  md:w-[400px] h-[185px] md:h-[225px] bg-raretech bg-cover rounded-2xl row-span-3" />
                 <p className="md:order-3 text-zinc-100 text-base font-medium leading-normal tracking-wide mb-4">
                   希少型エンジニアを育成するITスクールです。プログラミングに限らず、ネットワークやLinuxまで、徹底して基礎に拘るカリキュラムです。
                 </p>
