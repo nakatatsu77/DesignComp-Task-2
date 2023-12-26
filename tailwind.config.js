@@ -11,6 +11,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Noto Sans JP", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
       backgroundImage: {
         "root-hero-pc": "url('/Images/root-hero-pc.jpg')",
         "root-hero-sp": "url('/Images/root-hero-sp.jpg')",

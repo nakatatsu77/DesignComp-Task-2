@@ -12,7 +12,7 @@ export function Header() {
   };
   return (
     <>
-      <header className="w-full fixed flex-col items-center gap-2.5 flex">
+      <header className="font-sans w-full fixed flex-col items-center gap-2.5 flex">
         <div className="w-[328px] md:w-[1280px] px-4 md:px-10 py-3 md:py-4 bg-white rounded-2xl justify-between flex mt-3 md:mt-4">
           <Image
             src={logo}
@@ -22,28 +22,28 @@ export function Header() {
           <div className="hidden md:flex justify-start items-center gap-10">
             <nav>
               <ul className="justify-start items-center gap-6 flex">
-                <li className="text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                <li className="text-neutral-800 text-base font-bold leading-normal tracking-wide">
                   サービス
                 </li>
-                <li className="text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                <li className="text-neutral-800 text-base font-bold leading-normal tracking-wide">
                   企業情報
                 </li>
-                <li className="text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                <li className="text-neutral-800 text-base font-bold leading-normal tracking-wide">
                   採用情報
                 </li>
-                <li className="text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                <li className="text-neutral-800 text-base font-bold leading-normal tracking-wide">
                   お知らせ
                 </li>
               </ul>
             </nav>
             <div className="justify-start items-center gap-2 flex">
               <div className="w-[184px] px-6 py-3 bg-lime-300 rounded-full justify-center items-center flex">
-                <button className="text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
+                <button className="text-center text-neutral-800 text-sm font-bold leading-[21px] tracking-wide">
                   お問い合わせ
                 </button>
               </div>
               <div className="w-[184px] px-6 py-3 bg-white rounded-full border border-neutral-800 justify-center items-center flex">
-                <button className="text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
+                <button className="text-center text-neutral-800 text-sm font-bold leading-[21px] tracking-wide">
                   資料ダウンロード
                 </button>
               </div>
@@ -80,28 +80,28 @@ export function Header() {
               <div className="flex-col justify-center gap-10 flex">
                 <nav>
                   <ul className="flex-col justify-center gap-6 flex">
-                    <li className="text-white text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                    <li className="text-white text-base font-bold leading-normal tracking-wide">
                       サービス
                     </li>
-                    <li className="text-white text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                    <li className="text-white text-base font-bold leading-normal tracking-wide">
                       企業情報
                     </li>
-                    <li className="text-white text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                    <li className="text-white text-base font-bold leading-normal tracking-wide">
                       採用情報
                     </li>
-                    <li className="text-white text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                    <li className="text-white text-base font-bold leading-normal tracking-wide">
                       お知らせ
                     </li>
                   </ul>
                 </nav>
                 <div className="flex-col justify-center items-start gap-2 flex">
                   <div className="w-full px-6 py-3 bg-lime-300 rounded-full justify-center items-center flex">
-                    <button className="text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
+                    <button className="text-center text-neutral-800 text-sm font-bold leading-[21px] tracking-wide">
                       お問い合わせ
                     </button>
                   </div>
                   <div className="w-full px-6 py-3 bg-white rounded-full border border-neutral-800  justify-center items-center flex">
-                    <button className="text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
+                    <button className="text-center text-neutral-800 text-sm font-bold leading-[21px] tracking-wide">
                       資料ダウンロード
                     </button>
                   </div>
